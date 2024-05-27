@@ -1,0 +1,53 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #509def;
+  color: white;
+  overflow-x: hidden;
+
+}
+
+.main {
+  height: 900px;
+
+}
+
+
+.code_bg {
+
+  background: linear-gradient(90deg, rgba(47, 123, 219, 1) 0%, rgba(255, 214, 68, 1) 50%, rgba(33, 135, 157, 1) 100%);
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+
+
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1300px;
+    overflow-x: hidden;
+  }
+
+  .slider {
+    overflow-x: hidden;
+  }
+}
