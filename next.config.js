@@ -3,15 +3,8 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   compiler: {
-    styledComponents: true,
-  },
-  typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
-    ignoreBuildErrors: true,
-  },
+    styledComponents: true
+  }
 }
 
 module.exports = nextConfig
