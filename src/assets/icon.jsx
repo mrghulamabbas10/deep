@@ -12,7 +12,7 @@ export default function Icon() {
       <path
         d='M9 17.0625C13.4528 17.0625 17.0625 13.4528 17.0625 9C17.0625 4.5472 13.4528 0.9375 9 0.9375C4.5472 0.9375 0.9375 4.5472 0.9375 9C0.9375 13.4528 4.5472 17.0625 9 17.0625Z'
         stroke='#247EDF'
-        strokeWidth='1.206'
+        strokeWidth='1.206 '
         strokeLinecap='round'
         strokeLinejoin='round'
       />
